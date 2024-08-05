@@ -59,11 +59,11 @@ SOCIALACCOUNT_PROVIDERS = {
             'SCOPE': [
                 'profile','email'],
             'AUTH_PARAMS': {
-                'access_type': 'offline',}, #'online',},
+                'access_type': 'online',},
             'OAUTH_PKCE_ENABLED': True,
             'EMAIL_AUTHENTICATION': True,
             'SOCIALACCOUNT_EMAIL_AUTHENTICATION_AUTO_CONNECT': True,
-            'SOCIALACCOUNT_ONLY': False, # eventaully change to True
+            'SOCIALACCOUNT_ONLY': True, 
             'FETCH_USERINFO': True,
             }
         }
